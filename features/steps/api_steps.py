@@ -53,7 +53,7 @@ def step_search_name(context, name):
     )
 
 
-@then('I should see "{text}"')
+@then('the API response should contain "{text}"')
 def step_response_contains(context, text):
     assert text in context.response.get_data(as_text=True)
 
