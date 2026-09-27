@@ -1,0 +1,1 @@
+"""Product Catalogue service package."""
